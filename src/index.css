@@ -13,12 +13,25 @@ body {
 }
 
 table {
-  width: 100%;
+  min-width: 100%;
   border-collapse: collapse;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+
 }
 
 table, th, td {
   border: 1px solid #333;
   padding: 10px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  th, td {
+    padding: 6px;
+    font-size: 14px;
+  }
 }
