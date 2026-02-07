@@ -63,10 +63,10 @@ Make sure you have the following installed on your local machine:
 
 ## Notes
 
-- The application loads 20 products per batch
-- Product edits are not persisted to the API (client-side only)
-- The DummyJSON API has a total of 194 products
-- No external UI libraries are used (per assignment requirements)
+- The application loads 20 products each time
+- Product Title edits are not persisted to the API as the changes are on the client-side only
+- The DummyJSON API has total 194 products
+- No external UI libraries are used as per the guidelines
 
 
 
